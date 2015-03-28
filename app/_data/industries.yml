@@ -1,0 +1,23 @@
+- name: materials
+  cn: 建材
+  keyphrase: 打造新丝绸之路经济带上人、钢、环境友好共存的精品钢铁企业。
+
+- name: steel
+  cn: 钢材
+  keyphrase: 匠心专筑，绿色节能环保建材的行业标杆。
+
+- name: trade
+  cn: 贸易
+  keyphrase: 立志成为横跨东西、辐射海外的综合贸易物流集成。
+
+- name: minerals
+  cn: 矿业
+  keyphrase: 以产品和服务创造价值，做大西部矿业开发的先行者。
+
+- name: realestate
+  cn: 房产
+  keyphrase: 建筑未来，让人们的宜居生活更美好
+
+- name: agriculture
+  cn: 农业
+  keyphrase: 以客户需求为先导，致力于实现休闲农业全产业链的可持续发展。  

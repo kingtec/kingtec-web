@@ -1,0 +1,40 @@
+---
+layout: post
+status: publish
+published: true
+title: "生产助理（宜春）"
+author:
+  display_name: admin
+  login: admin
+  email: admin@kingtec.cc
+  url: ''
+author_login: admin
+author_email: admin@kingtec.cc
+wordpress_id: 90
+wordpress_url: http://kingtecword.com/?p=90
+date: '2014-07-14 07:49:16 +0800'
+date_gmt: '2014-07-13 23:49:16 +0800'
+categories:
+- "招贤纳士"
+tags: []
+comments: []
+---
+<p>岗位要求:</p>
+<p>协调各厂产销平衡，合理安排生产计划，特殊订单跟进，起草各项文件制度等，对所承担的工作负责。</p>
+<p>工作内容：</p>
+<ol>
+<li>协助生产经理编制年度、季度、月度生产计划，并监督、跟进各工厂计划的完成情况及时反馈生产经理；</li>
+<li>根据生产订单及生产现状进行生产合理调度，特殊订单组织评审会议；</li>
+<li>协助生产经理对公司生产运作各部门进行管理，并在一定程度上担当管理职能，协调内部各部门关系；</li>
+<li>负责公司ISO三标体系、十环认证的评审，并监督、检查生产过程中体系的正常运行；</li>
+<li>起草、编制生产部管理制度、方案或各阶段工作总结；</li>
+<li>协助宜春工厂厂长处理宜春工厂相关事务；</li>
+</ol>
+<p>任职资格:</p>
+<ul>
+<li>教育背景: 大专</li>
+<li></li>
+<li>培训经历: ISO质量管理体系培训、现代企业管理培训、现场管理培训</li>
+<li></li>
+<li>经验: 五年以上企业管理经验，两年以上同等职位管理经验熟悉现代企业管理方法、技能；熟练使用办公软件。</li>
+</ul>

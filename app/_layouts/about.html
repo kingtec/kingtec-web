@@ -1,0 +1,25 @@
+---
+breadcrumbs: true
+---
+<!DOCTYPE html>
+<html>
+	{% include head.html %}
+	<body>
+	{% include nav.html %}
+	      
+	 <div class="container-fluid content-container">
+        {{ content }}
+      </div>
+
+	{% include footer.html %}
+
+    <!-- build:js(app) /js/scripts.js -->
+    <script src="/_bower_components/jquery/dist/jquery.js"></script>
+    <script src="/_bower_components/jquery-ui/jquery-ui.js"></script>
+    <script src="/_bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="/js/main.js"></script>
+    <!-- endbuild -->
+
+	</body>
+
+</html>

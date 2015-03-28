@@ -1,0 +1,34 @@
+---
+layout: post
+status: publish
+published: true
+title: "外销业务经理-建材（上海）"
+author:
+  display_name: admin
+  login: admin
+  email: admin@kingtec.cc
+  url: ''
+author_login: admin
+author_email: admin@kingtec.cc
+wordpress_id: 100
+wordpress_url: http://kingtecword.com/?p=100
+date: '2014-07-14 02:52:16 +0800'
+date_gmt: '2014-07-13 18:52:16 +0800'
+categories:
+- "招贤纳士"
+tags: []
+comments: []
+---
+<div id="jobnine">
+<p>职位描述：负责绿色环保建材的出口业务，海外市场拓展和终端客户建设。</p>
+<p>任职要求：</p>
+<p>从事内外墙保温装饰板、防火泄压板、纤维增强硅酸钙板等绿色环保建材产品出口贸易工作3年以上，具有成熟业务渠道以及独立开发客户的能力；</p>
+<ol>
+<li>建筑材料，国际贸易等相关专业大学本科及以上学历；</li>
+<li>英语六级以上，有较强的英文听说读写能力；</li>
+<li>具有良好的沟通、谈判技巧及团队合作精神，能承受较强的工作压力；</li>
+<li>身体健康，品德端正，遵纪守法，诚实守信，勤勉尽责，具有良好的个人品质和职业道德，无不良行为记录；</li>
+<li>具有海外工作经验（澳洲、东南亚、中东、欧美等）或大型进出口企业工作经验者优先；</li>
+<li>拥有国际工程承包商、房产开发商、集成建筑商等行业资源者优先；</li>
+</ol>
+</div>

@@ -1,0 +1,23 @@
+---
+layout: post
+status: publish
+published: true
+title: "祝贺金特建材吴勇董事长任CCPA硅酸钙水泥板分会轮值理事长"
+author:
+  display_name: admin
+  login: admin
+  email: admin@kingtec.cc
+  url: ''
+author_login: admin
+author_email: admin@kingtec.cc
+wordpress_id: 12
+wordpress_url: http://kingtecbs.com/news/?p=12
+date: '2013-05-23 16:47:59 +0800'
+date_gmt: '2013-05-23 08:47:59 +0800'
+categories:
+- "未分类"
+- "金特动态"
+tags: []
+comments: []
+---
+<p>2013年5月23日，中国混凝土与水泥制品协会（CCPA）硅酸钙水泥板分会第一届第二次理事会在河南登封召开。会上，中国混凝土与水泥制品协会副秘书长沈冰宣布金特建材董事长吴勇先生（原总经理）任硅酸钙水泥板分会轮值理事长</p>

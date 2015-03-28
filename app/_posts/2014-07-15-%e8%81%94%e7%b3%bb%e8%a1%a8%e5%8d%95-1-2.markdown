@@ -1,0 +1,66 @@
+---
+layout: wpcf7_contact_form
+status: publish
+published: true
+title: "招聘联系表单"
+author:
+  display_name: admin
+  login: admin
+  email: admin@kingtec.cc
+  url: ''
+author_login: admin
+author_email: admin@kingtec.cc
+wordpress_id: 150
+wordpress_url: http://kingtecword.com/?post_type=wpcf7_contact_form&#038;p=150
+date: '2014-07-15 10:41:27 +0800'
+date_gmt: '2014-07-15 02:41:27 +0800'
+categories: []
+tags: []
+comments: []
+---
+<p>你的名字 （必填）<br />
+   [text* your-name /50 id:form-name class:form-control]</p>
+<p>你的邮箱 （必填）<br />
+    [email* your-email class:form-control] </p>
+<p>主题<br />
+    [text your-subject class:form-control] </p>
+<p>你的留言<br />
+    [textarea your-message class:form-control] </p>
+<p>请把您的履历附上：[file file-872 id:attachment filetypes:pdf|txt|doc|docx|xls|xlsx]</p>
+<p>[submit "发送"]</p>
+<p>[your-subject]<br />
+[your-name] <[your-email]><br />
+发件人：[your-name] <[your-email]><br />
+主题：RE: [_post_title] [your-subject]</p>
+<p>留言正文：<br />
+[your-message]<br />
+recruitment@kingtec.cc</p>
+<p>[file-872]</p>
+<p>[your-subject]<br />
+[your-name] <[your-email]><br />
+留言正文：<br />
+[your-message]</p>
+<p>--<br />
+这封邮件通过联系表单【kingtecword (http://kingtecword.com)】发送<br />
+[your-email]</p>
+<p>你的留言已经成功发送。谢谢<br />
+你的留言发送失败。请稍后再尝试发送或者使用其他方法联系管理员。<br />
+出现验证错误。请检查所有内容，再重新提交。<br />
+你的留言发送失败。请稍后再尝试发送或者使用其他方法联系管理员。<br />
+请接受条款，然后进行下一步。<br />
+请填写必填项。<br />
+你输入的验证码不正确<br />
+数字格式无效<br />
+这个数字太小。<br />
+这个数字太大。<br />
+邮件地址无效。<br />
+链接无效。<br />
+电话号码无效<br />
+你的回答不正确。<br />
+日期格式不正确<br />
+这个日期太早。<br />
+这个日期太晚<br />
+上传文件失败<br />
+这种文件类型不被允许。<br />
+这个文件太大。<br />
+上传文件失败。发生错误。</p>

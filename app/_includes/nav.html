@@ -1,0 +1,45 @@
+<nav class="navbar navbar-default horizontal-gradient" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle button ionic" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+        <i>菜单</i>
+      </button>
+      <a class="navbar-brand" href="/">
+        
+          <img src="/img/logo.svg" width="123" height="43" alt="金特集团方案">
+
+      </a>
+    </div>
+
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a class="nav-link" href="/about/">关于我们</a></li>
+        <li><a class="nav-link" href="/business">主要营业</a></li>
+        <li><a class="nav-link" href="/news">新闻</a></li>
+        <li><a class="nav-link" href="/culture">企业文化</a></li>
+        <li><a class="nav-link" href="">人力资源</a></li>
+        <li><a class="nav-link" href="/contact">联系我们</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="header horizontal-gradient">
+  <div class="intra">
+    <div class="container">
+      <div class="row">
+      <div class="col-sm-6">
+      {% if page.breadcrumbs %}
+        {% include breadcrumbs.html %}
+      {% endif %}
+      </div>
+        <div class="col-sm-6">
+          <ul class=" logins list-inline list-unstyled" style="float:right">
+            <li><a href="" class="btn btn-primary btn-sm">OA登录</a></li>
+            <li><a href="" class="btn btn-primary btn-sm">公司邮箱</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

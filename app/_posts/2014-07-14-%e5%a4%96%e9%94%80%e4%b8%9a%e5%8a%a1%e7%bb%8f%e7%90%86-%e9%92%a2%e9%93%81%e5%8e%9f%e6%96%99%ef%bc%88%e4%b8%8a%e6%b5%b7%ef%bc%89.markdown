@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: "外销业务经理-钢铁/原料（上海）"
+author:
+  display_name: admin
+  login: admin
+  email: admin@kingtec.cc
+  url: ''
+author_login: admin
+author_email: admin@kingtec.cc
+wordpress_id: 103
+wordpress_url: http://kingtecword.com/?p=103
+date: '2014-07-14 01:53:17 +0800'
+date_gmt: '2014-07-13 17:53:17 +0800'
+categories:
+- "招贤纳士"
+tags: []
+comments: []
+---
+<p>职位描述：负责钢铁/原料的国际业务，海外市场拓展和终端行业资源建设。</p>
+<p>任职要求：</p>
+<ol>
+<li>从事无缝钢管、球墨铸管、中厚板、特钢等钢材产品、或碳化硅、铁精粉、矿产品等原料出口贸易工作3年以上，具有成熟业务渠道以及独立开发客户的能力；</li>
+<li>钢铁冶金，国际贸易等相关专业本科及以上学历；</li>
+<li>英语六级以上，有较强的英文听说读写能力；</li>
+<li>具有良好的沟通、谈判技巧及团队合作精神，能承受较强的工作压力；</li>
+<li>身体健康，品德端正，遵纪守法，诚实守信，勤勉尽责，具有良好的个人品质和职业道德，无不良行为记录；</li>
+<li>具有海外工作经验（东南亚、中东、欧美等）或大型进出口企业工作经验者优先；</li>
+<li>拥有国外钢铁、建筑、耐火材料、化工、电站、石油天然气等终端行业资源者优先；</li>
+</ol>

@@ -1,0 +1,52 @@
+---
+layout: home
+title: 金特集团
+---
+
+{% for industry in site.data.industries %}
+	<div class="row block-set">
+
+		{% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
+		{% if thecycle == 'odd' %}
+
+			<div class="col-md-6 block left">
+				<div class="key-cover">
+				</div>
+				<p class="keyphrase">{{ industry.keyphrase }}</p>
+			</div>
+			<div class="col-md-6 block right {{ industry.name }}">
+				<div class="industry-cover">
+				</div>
+				<p class="industry">{{ industry.cn }}</p>
+			</div>
+
+		{% elsif thecycle == 'even' %}
+
+			<div class="col-md-6 block left {{ industry.name }}">
+				<div class="industry-cover">
+				</div>
+				<p class="industry">{{ industry.cn }}</p>
+			</div>
+			<div class="col-md-6 block right">
+				<div class="key-cover">
+				</div>
+				<p class="keyphrase">{{ industry.keyphrase }}</p>
+			</div>
+
+		{% endif %}
+
+	</div>
+{% endfor %}
+
+        <div class="bar-item">
+            <div class="container weixin">
+                <div class="row">
+                  <div class="col-sm-5">
+                    <img src="/img/weixin2.svg">
+                  </div>
+                  <div class="col-sm-7">
+                  	<button class="btn btn-primary btn-weixin">在微信上关注我们！</button>
+                  </div>
+                </div>
+              </div>
+          </div>

@@ -1,0 +1,55 @@
+---
+layout: wpcf7_contact_form
+status: publish
+published: true
+title: "联系表单 1"
+author:
+  display_name: admin
+  login: admin
+  email: admin@kingtec.cc
+  url: ''
+author_login: admin
+author_email: admin@kingtec.cc
+wordpress_id: 8
+wordpress_url: http://kingtecgroup.net/?post_type=wpcf7_contact_form&p=8
+date: '2014-07-17 11:38:10 +0800'
+date_gmt: '2014-07-17 03:38:10 +0800'
+categories: []
+tags: []
+comments: []
+---
+<p>你的名字 （必填）<br />
+    [text* your-name] </p>
+<p>你的邮箱 （必填）<br />
+    [email* your-email] </p>
+<p>主题<br />
+    [text your-subject] </p>
+<p>你的留言<br />
+    [textarea your-message] </p>
+<p>[submit "发送"]</p>
+<p>[your-subject]<br />
+[your-name] <[your-email]><br />
+发件人：[your-name] <[your-email]><br />
+主题：[your-subject]</p>
+<p>留言正文：<br />
+[your-message]</p>
+<p>--<br />
+这封邮件通过联系表单【金特集团 (http://kingtecgroup.net)】发送<br />
+admin@kingtec.cc</p>
+<p>0<br />
+0</p>
+<p>[your-subject]<br />
+[your-name] <[your-email]><br />
+留言正文：<br />
+[your-message]</p>
+<p>--<br />
+这封邮件通过联系表单【金特集团 (http://kingtecgroup.net)】发送<br />
+[your-email]</p>
+<p>0<br />
+0<br />
+你的留言已经成功发送。谢谢<br />
+你的留言发送失败。请稍后再尝试发送或者使用其他方法联系管理员。<br />
+出现验证错误。请检查所有内容，再重新提交。<br />
+你的留言发送失败。请稍后再尝试发送或者使用其他方法联系管理员。<br />
+请接受条款，然后进行下一步。<br />
+请填写必填项。</p>

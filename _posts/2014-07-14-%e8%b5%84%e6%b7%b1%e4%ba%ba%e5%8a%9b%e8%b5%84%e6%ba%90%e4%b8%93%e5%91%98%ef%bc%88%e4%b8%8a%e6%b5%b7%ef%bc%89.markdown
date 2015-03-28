@@ -1,0 +1,35 @@
+---
+layout: post
+status: publish
+published: true
+title: "资深人力资源专员（上海）"
+author:
+  display_name: admin
+  login: admin
+  email: admin@kingtec.cc
+  url: ''
+author_login: admin
+author_email: admin@kingtec.cc
+wordpress_id: 98
+wordpress_url: http://kingtecword.com/?p=98
+date: '2014-07-14 03:51:55 +0800'
+date_gmt: '2014-07-13 19:51:55 +0800'
+categories:
+- "招贤纳士"
+tags: []
+comments: []
+---
+<p>工作职责：</p>
+<p>协助集团行政人事经理，指导和支持下属成员企业的各项人力资源管理工作。</p>
+<p>任职要求：</p>
+<ol>
+<li>性格开朗，诚实正直，有亲和力。</li>
+<li>人力资源管理、心理学、管理学等相关专业本科及以上学历；</li>
+<li>5年以上人力资源工作经验，至少擅长人力资源管理的1-2个模块。</li>
+<li>有在集团人力资源管理工作经验者优先。</li>
+<li>熟悉各类办公软件，文字功底好，能独立撰写文案。</li>
+<li>较强的学习能力和责任心，良好的团队合作意识，亦有独立完成工作的能力。</li>
+<li>如果你想挑战自我，提升专业度；</li>
+<li>如果你想挑战跨行业、跨区域的人力资源管理工作；</li>
+<li>如果你曾任职外企、或民企、或国企，我们都欢迎你的加入！</li>
+</ol>

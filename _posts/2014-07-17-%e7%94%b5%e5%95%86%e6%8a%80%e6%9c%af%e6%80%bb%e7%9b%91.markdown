@@ -1,0 +1,32 @@
+---
+layout: post
+status: publish
+published: true
+title: "电商技术总监"
+author:
+  display_name: zhangam
+  login: zhangam
+  email: zhangam@kingtec.cc
+  url: ''
+author_login: zhangam
+author_email: zhangam@kingtec.cc
+wordpress_id: 197
+wordpress_url: http://kingtecgroup.net/?p=197
+date: '2014-07-17 17:18:23 +0800'
+date_gmt: '2014-07-17 09:18:23 +0800'
+categories:
+- "招贤纳士"
+tags: []
+comments: []
+---
+<p>职位描述：<br />
+1、主要为本公司B2B、B2C等电商网站整体形象规划、设计和建设等工作提供技术支持，充分展示品牌形象和商品设计；<br />
+2、负责网站的发展建设，包含功能的规划、需求分析设计与技术实现；<br />
+3、负责提升网站的用户体验；负责与内部团队紧密合作，完成网站应用程序的编码工作；<br />
+4、负责设计任务的单元测试和系统测试，以及功能间相互交叉测试；<br />
+5、负责web端JS交互、ERP、CRM软件融合需求的实现，解决HTML代码不同浏览器的兼容性问题。</p>
+<p>职位要求：<br />
+1、全日制大专及以上计算机相关专业学历；<br />
+2、至少三年以上电商技术经验，熟练使用photoshop、flash、illustrator、dreamweaver等工具，熟悉ASP，JAVA,SQL,HTML等开发语言。了解移动互联网新兴网络功能，并熟悉手机客户端。<br />
+3、具备良好的文档编制习惯和代码书写规范；<br />
+4、思路清晰，善于思考、责任心强，工作踏实，肯于学习，良好的沟通能力与团队合作精神。</p>

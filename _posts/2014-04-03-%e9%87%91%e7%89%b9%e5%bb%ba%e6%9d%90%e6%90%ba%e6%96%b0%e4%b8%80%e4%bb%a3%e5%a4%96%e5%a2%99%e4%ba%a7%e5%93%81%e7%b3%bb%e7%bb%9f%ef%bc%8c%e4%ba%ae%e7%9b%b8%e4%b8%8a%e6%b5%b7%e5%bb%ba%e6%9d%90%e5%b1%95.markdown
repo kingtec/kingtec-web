@@ -1,0 +1,24 @@
+---
+layout: post
+status: publish
+published: true
+title: "金特建材携新一代外墙产品系统，亮相上海建材展"
+author:
+  display_name: admin
+  login: admin
+  email: admin@kingtec.cc
+  url: ''
+author_login: admin
+author_email: admin@kingtec.cc
+wordpress_id: 26
+wordpress_url: http://kingtecbs.com/news/?p=26
+date: '2014-04-03 16:52:03 +0800'
+date_gmt: '2014-04-03 08:52:03 +0800'
+categories:
+- "新闻"
+- "金特动态"
+tags: []
+comments: []
+---
+<p>2014年3月31日到4月3日，金特建材携新一代外墙产品系统，亮相在上海新国际博览中心举办的 第二十二届中国国际建筑装饰展览会（上海建材展），引起国内外客商的极大兴趣。</p>
+<p>在为期4天的展会上，金特建材全面展示了公司冈帝斯Gadis外墙系统产品。作为国内行业的领先者， 金特建材位于W4K34的展位上人来人往，其系统产品得到了国内外客商的认可和青睐，无论是产品 还是系统安装上，全面体现了金特建材的实力和领先技术。</p>

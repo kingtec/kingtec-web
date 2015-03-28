@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+title: "生产副总（宜春）"
+author:
+  display_name: admin
+  login: admin
+  email: admin@kingtec.cc
+  url: ''
+author_login: admin
+author_email: admin@kingtec.cc
+wordpress_id: 92
+wordpress_url: http://kingtecword.com/?p=92
+date: '2014-07-14 06:49:45 +0800'
+date_gmt: '2014-07-13 22:49:45 +0800'
+categories:
+- "招贤纳士"
+tags: []
+comments: []
+---
+<div id="jobfive">
+<p>工作内容:</p>
+<ol>
+<li>参与编制公司编制、执行公司年度生产计划。综合平衡年度生产任务，制定下达季度、月度生产计划，做到均衡生产；</li>
+<li>按工作程序做好与研发、营销、财务系统的横向联系，并及时对系统间争议提出界定要求；</li>
+<li>组织实施并监督、检查生产过程中质量体系的运行；</li>
+<li>主管并监督检查公司安全文明生产、生产环保工作；</li>
+<li>审阅、签发生产系统内文件、会议记录。</li>
+<li>组织各工厂严格按照公司研发部制定的工艺、配方标准进行生产。</li>
+<li>指导、监督、检查所属下级的各项工作，掌握工作情况和有关数据并实施考核。</li>
+<li>主持召开生产调度、成本分析会议。</li>
+</ol>
+<p>任职资格:</p>
+<p>教育背景: 大专及以上<br />
+培训经历: 公司战略管理、现代企业管理、ISO质量管理、安全管理等<br />
+经验: 十年以上水泥行业或硅钙板行业经验，两年以上同等职位管理经验</p></div>
+<div>
+<ol>
+<li>熟悉硅钙板生产设备及生产工艺。</li>
+<li>熟悉现代企业管理方法、技能。</li>
+<li>具备生产系统统筹管理能力。</li>
+<li>熟练使用办公软件。</li>
+</ol>
+</div>

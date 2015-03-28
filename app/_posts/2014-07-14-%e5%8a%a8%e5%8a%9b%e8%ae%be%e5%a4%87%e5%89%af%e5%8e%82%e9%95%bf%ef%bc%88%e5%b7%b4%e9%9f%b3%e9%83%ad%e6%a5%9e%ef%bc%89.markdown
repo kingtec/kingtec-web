@@ -1,0 +1,38 @@
+---
+layout: post
+status: publish
+published: true
+title: "动力设备副厂长（巴音郭楞）"
+author:
+  display_name: admin
+  login: admin
+  email: admin@kingtec.cc
+  url: ''
+author_login: admin
+author_email: admin@kingtec.cc
+wordpress_id: 96
+wordpress_url: http://kingtecword.com/?p=96
+date: '2014-07-14 04:51:24 +0800'
+date_gmt: '2014-07-13 20:51:24 +0800'
+categories:
+- "招贤纳士"
+tags: []
+comments: []
+---
+<p>工作内容:</p>
+<ol>
+<li>负责工厂生产、生活、办公设备的管理与维修工作，保障设备正常运转，提高设备完好率；</li>
+<li>负责制定设备定期保养与维护计划，并实施、记录；</li>
+<li>负责对新购设备的安装、检验、调试工作；</li>
+<li>负责新疆厂设备技术改造方案提出并实施；</li>
+<li>制定维修人员培训计划，并实施、记录；对生产操作员工进行设备操作、一级保养培训与指导；</li>
+<li>负责对维修队伍日常巡检工作的检验与监督；</li>
+<li>建立设备台帐，及时更新设备状态。</li>
+</ol>
+<p>任职资格:</p>
+<ul>
+<li>教育背景: 中专以上。</li>
+<li>培训经历: 设备维修及机电一体化管理培训。</li>
+<li>经验: 三年以上机电类工作经验，两年以上设备岗位管理经验。</li>
+<li>技能技巧:具备维修、电工相应资格证。</li>
+</ul>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+
+
+    <body>
+
+    {% include nav.html %}
+
+<div class="container-fluid" style="background:#008148">
+<div class="row">
+<h1 style="color:white">新闻</h1>
+</div>
+</div>
+<!-- <hr style="background-color:#00CD73;height:20px;margin:0px;border:none"> -->
+<!-- <hr style="background-color:#008148;height:20px;margin:0px;border:none"> -->
+<hr class="hr-last" style="background-color:#2D9668;height:20px;margin:0px;border:none">
+<!-- <hr class="hr-last" style="background-color:#3ECD8E;height:20px;margin:0px;border:none"> -->
+<!-- <hr style="background-color:#007F64;height:20px;margin:0px;border:none"> -->
+
+
+      <div class="main">
+        <div class="container-fluid content-container">
+          {{ content }}
+        </div>  
+      </div>
+
+
+      {% include footer.html %}
+
+    <!-- build:js(app) /js/scripts.js -->
+    <script src="/_bower_components/jquery/dist/jquery.js"></script>
+    <script src="/_bower_components/jquery-ui/jquery-ui.js"></script>
+    <script src="/_bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="/js/main.js"></script>
+    <!-- endbuild -->
+    <script>
+    </script>
+    </body>
+</html>

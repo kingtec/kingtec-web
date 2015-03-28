@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+
+
+    <body>
+
+    {% include nav.html %}
+
+      <div class="masthead">
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <h1>金特集团</h1>
+              <hr>
+              <h2>做行业内的领先者</h2>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+<!--       <hr style="background-color:#00CD5E;height:6px;margin:0px;border:none">
+      <hr style="background-color:#00CD66;height:6px;margin:0px;border:none">
+      <hr style="background-color:#00CD6E;height:6px;margin:0px;border:none">
+      <hr style="background-color:#00CD76;height:6px;margin:0px;border:none">
+      <hr style="background-color:#00CD7F;height:6px;margin:0px;border:none"> -->
+
+
+        <div class="bar-item">
+            <div class="container news">
+              <div class="row">
+                <div class="col-sm-6 col-sm-offset-3">
+                <h2 class="heading">最新新闻</h2>
+                {% assign post = site.posts.first %}
+                {% if post.title %}
+                <p>
+                  <span class="date">{{post.date | date: '%Y年%-m月%d日'}} | </span>
+                  <a class="title" href="{{ root_url }}{{ post.url }}">{{ post.title }}</a>
+                </p>
+                {% endif %}
+                </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-4 col-sm-offset-4">
+<!--                     <div class="search-bar">
+                      <span class="search-icon"><i class="ion-ios7-search-strong"></i></span>
+                      <input type="search" id="search-input" value="新闻搜索">
+                    </div> -->
+                    <button class="btn btn-primary btn-news">新闻中心</button>
+                  </div>
+                </div>
+              </div>
+          </div>
+
+      <div class="main">
+        <div class="container-fluid content-container">
+          {{ content }}
+        </div>  
+      </div>
+
+
+      {% include footer.html %}
+
+    <!-- build:js(app) /js/scripts.js -->
+    <script src="/_bower_components/jquery/dist/jquery.js"></script>
+    <script src="/_bower_components/jquery-ui/jquery-ui.js"></script>
+    <script src="/_bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src="/js/main.js"></script>
+    <!-- endbuild -->
+    <script>
+    </script>
+    </body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "proposals",
+  "version": "0.0.0",
+  "dependencies": {
+    "bootstrap-sass": "~3.3.3",
+    "jquery": "~2.1.3"
+  }
+}

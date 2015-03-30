@@ -4,33 +4,8 @@
 $block-backgrounds: materials url('/img/blocks/birdnest2.jpg'), steel url('/img/blocks/wiremill.jpg'), trade url('/img/blocks/shanghaiport.jpg'), minerals url('/img/blocks/mine.jpg'), realestate url('/img/blocks/realestate.jpg'), agriculture url('/img/blocks/teafarm2.jpg');
 
 
-@font-face {
-   font-family: "NotoThin";
-   src: url('../fonts/NotoSansCJKsc-Thin.otf');
-   font-weight:400;
-}
-
-@font-face {
-   font-family: "NotoBlack";
-   src: url('../fonts/NotoSansCJKsc-Bold.otf');
-   font-weight:400;
-
-}
-
-@font-face {
-   font-family: "NotoRegular";
-   src: url('../fonts/NotoSansCJKsc-Regular.otf');
-   font-weight:400;
-}
-
-@font-face {
-   font-family: "NotoLight";
-   src: url('../fonts/NotoSansCJKsc-Light.otf');
-   font-weight:400;
-}
-
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -46,7 +21,7 @@ a {
   border: 0;
   border-radius: 0;
   &.navbar-default {
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
     .navbar-toggle {
@@ -128,7 +103,7 @@ a {
     background: rgba(0, 0, 0, 0.04);
     letter-spacing: -0.03em;
     font-weight: bold;
-    font-family: "NotoRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
     .container {
       overflow: hidden;
       color: #B6FFD1;
@@ -140,7 +115,6 @@ a {
       li {
         a {
           color: #abf5c0;
-          font-family: "NotoLight";
           letter-spacing: 5px;
         }
       }
@@ -190,14 +164,12 @@ a {
       &.news {
         .heading {
           letter-spacing: 10px;
-          font-family: "NotoBlack";
           color: white;
           margin-top: 40px;
           margin-bottom: 20px;
         }
         p {
           color: white;
-          font-family: "NotoLight";
           letter-spacing: 5px;
           .date {
             font-size: 18px;
@@ -213,7 +185,6 @@ a {
           margin: 20px 0px;
           padding: 10px 40px;
           font-size: 18px;
-          font-family: "NotoRegular";
           border-radius: 1px;
         }
 
@@ -224,7 +195,6 @@ a {
           margin: 30px 0px;
           padding: 10px 40px;
           font-size: 18px;
-          font-family: "NotoRegular";
           border-radius: 1px;
         }
         img {
@@ -290,7 +260,6 @@ a {
   background: url('/img/blocks/steel.jpg') no-repeat 60% 50%;
   background-size: cover;
   h1 {
-    font-family: "NotoBlack";
     margin-top: 40px;
     margin-left: 60px;
     color:white;
@@ -320,7 +289,6 @@ a {
     height: inherit;
     // background-size: cover;
     .keyphrase {
-      font-family: "NotoThin";
       margin-left: 50px;
       margin-top: 150px;
       font-size: 36px;
@@ -330,7 +298,6 @@ a {
       font-size: 64px;
       color: white;
       margin-top: 140px;
-      font-family: "NotoBlack";
       font-style: italic;
       text-align: center;
 
@@ -471,7 +438,6 @@ a {
 //     margin-top: 40px;
 //     color: white;
 //     font-size: 42px;
-//     font-family: "NotoThin";
 //     // text-align: center;
 //     float: right;
 //   }
@@ -504,12 +470,10 @@ footer {
         padding-bottom: 10px;
         letter-spacing: 2px;
         color: white;
-        font-family: "NotoBlack";
       }
       dd {
         margin: 5px 0;
         a {
-          font-family: "NotoThin";
           display: block;
           // padding: 5px 0;
           color: white;
@@ -523,7 +487,6 @@ footer {
     text-align: left;
     p {
       font-size:16px;
-      font-family: "NotoThin";
       letter-spacing: 5px;
       color: white;
       margin-top: 10px;
@@ -566,7 +529,6 @@ footer {
     }
     .title {
       margin-left: 50px;
-      font-family: "NotoLight";
       line-spacing: 5px;
       letter-spacing: 4px;
       color: black;
@@ -580,11 +542,8 @@ footer {
           margin-bottom: 20px;
           text-align: center;
           font-size: 18px;
-          font-family: "NotoThin";
         &.year {
           color: white;
-          // font-size: 18px;
-          // font-family: "NotoThin";
           padding: 25px 10px 25px;
           background: #36CC7C;
         }
@@ -592,8 +551,6 @@ footer {
           background: #008148;
           left: 82px;
           color: white;
-          // font-size: 18px;
-          // font-family: "NotoThin";
           padding: 25px 10px 25px;
         }
       }

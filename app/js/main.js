@@ -75,6 +75,7 @@
 			toggled.keyphrase = left_block.find('.keyphrase');
 
 			right_block.mouseenter(function() {
+                console.log('YOLO');
 				$.each(toggled, function(key,value) {
 					value.toggleClass('animated', 350, 'easeOutCubic');
 				})
@@ -92,6 +93,7 @@
 			toggled.keyphrase = right_block.find('.keyphrase');
 
 			left_block.mouseenter(function() {
+                console.log('YOLO');
 				$.each(toggled, function(key,value) {
 					value.toggleClass('animated', 350, 'easeOutCubic');
 				})

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: about
 status: publish
 published: true
 title: Awards

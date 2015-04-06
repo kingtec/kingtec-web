@@ -2,7 +2,7 @@
 layout: about
 status: publish
 published: true
-title: History
+title: 历史历程
 author:
   display_name: admin
   login: admin

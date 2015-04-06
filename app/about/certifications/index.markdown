@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: about
 status: publish
 published: true
-title: Certifications
+title: 企业资质
 author:
   display_name: admin
   login: admin

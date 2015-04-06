@@ -1,17 +1,56 @@
 @import '../_bower_components/bootstrap-sass/assets/stylesheets/bootstrap';
 
 
+
+/*------------------------------------*\
+    #INIT VARIABLES
+\*------------------------------------*/
+
+
 $block-backgrounds: materials url('/img/blocks/birdnest2.jpg'), steel url('/img/blocks/wiremill.jpg'), trade url('/img/blocks/shanghaiport.jpg'), minerals url('/img/blocks/mine.jpg'), realestate url('/img/blocks/realestate.jpg'), agriculture url('/img/blocks/teafarm2.jpg');
 
 
+
+// needs latest Compass, add '@import "compass"' to your scss
+
+
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+
 body {
-  font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
+
+  &.about {
+    background: url('/img/bamboo2.jpg') no-repeat;
+    background-size: cover;
+  }
+  // &.contact {
+  //   background: url('/img/spaceorig.jpg') no-repeat;
+  //   background-size: cover;
+  // }
 }
+
+
+/*------------------------------------*\
+    #SECTION-TITLE
+\*------------------------------------*/
+
+
+
 
 a {
   color: #00CD90;
 }
+
+
+
+/*------------------------------------*\
+    #NAVIGATION
+\*------------------------------------*/
+
 
 .navbar {
   position: relative;
@@ -21,9 +60,14 @@ a {
   border: 0;
   border-radius: 0;
   &.navbar-default {
-    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: normal;
     -webkit-font-smoothing: antialiased;
+    .navbar-header {
+      .navbar-brand {
+        padding-top: 25px;
+      }
+    }
     .navbar-toggle {
       margin-top: 17px;
       padding: 0;
@@ -48,13 +92,13 @@ a {
           padding-right: 26px !important;
           padding-left: 26px !important;
           @media (min-width: $screen-md-min) {
-            padding-top: 26px;
-            padding-bottom: 26px;
+            padding-top: 35px;
+            padding-bottom: 35px;
           }
           border-top: 3px solid transparent;
           color: #abf5c0;
           opacity: 1;
-          font-size: 16px;
+          font-size: 18px;
           &:hover {
             @media (min-width: $screen-md-min) {
               border-top: 3px solid #B5FFCA;
@@ -67,18 +111,7 @@ a {
   }
 }
 
-.horizontal-gradient {
-  background: #296ad4;
-  background: -moz-linear-gradient(left, #00CD88 0%, #00CD99 100%);
-  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #00CD88), color-stop(100%, #00CD99));
-  background: -webkit-linear-gradient(left, #00CD88 0%, #00CD99 100%);
-  background: -o-linear-gradient(left, #00CD88 0%, #00CD99 100%);
-  background: -ms-linear-gradient(left, #00CD88 0%, #00CD99 100%);
-  background: linear-gradient(to right, #00CD88 0%, #00CD99 100%);
-}
-
-
-.header {
+.internal {
   position: relative;
   padding: 24px 0 0 0;
   height: 60px;
@@ -103,7 +136,7 @@ a {
     background: rgba(0, 0, 0, 0.04);
     letter-spacing: -0.03em;
     font-weight: bold;
-    font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    // font-family: "Microsoft Yahei", "Helvetica Neue", Helvetica, Arial, sans-serif;
     .container {
       overflow: hidden;
       color: #B6FFD1;
@@ -149,85 +182,61 @@ a {
 }
 
 
-.bar-item {
-  // height: 200px;
-  background: url('/img/bamboo.jpg') no-repeat;
-  background-size: cover;
-    .container {
-      text-align: center;
-      padding-top: 14px;
-      width: 100%;
-      overflow: hidden;
-      color: #B6FFD1;
-      text-overflow: ellipsis;
-      white-space: nowrap;
-      &.news {
-        .heading {
-          letter-spacing: 10px;
-          color: white;
-          margin-top: 40px;
-          margin-bottom: 20px;
-        }
-        p {
-          color: white;
-          letter-spacing: 5px;
-          .date {
-            font-size: 18px;
-          }
-          .title {
-            font-size: 18px;
-            color: #abf5c0;
-            font-style: italic;
-          }
-        }
 
-        .btn-news {
-          margin: 20px 0px;
-          padding: 10px 40px;
-          font-size: 18px;
-          border-radius: 1px;
-        }
-
-      }
-      &.weixin {
-        .btn-weixin {
-          float: left;
-          margin: 30px 0px;
-          padding: 10px 40px;
-          font-size: 18px;
-          border-radius: 1px;
-        }
-        img {
-          float: right;
-          margin: 20px 0px;
-        }
+.side-nav {
+  > li {
+    &:hover, &:focus, &.active {
+      background-color: rgba(255,255,255,0.1);
+    }
+    > a { 
+      color: white;
+      &:hover, &:focus, &.active {
+        background-color: transparent;
       }
     }
+  }
 }
 
-    // .search-bar {
-    //   // visibility: hidden;
-    //   // float: right;
-    //   padding: 0 2px 0 8px;
-    //   margin: 20px 0px;
-    //   border: none;
-    //   border-radius: 40px;
-    //   background: rgba(255, 255, 255, 0.3);
-    //   transition: background ease-in-out 150ms;
-    //   .search-icon {
-    //     padding-top: 4px;
-    //     color: white;
-    //   }
-    //   input {
-    //     padding-left: 4px;
-    //     width: 200px;
-    //     border: none;
-    //     background: transparent;
-    //     color: white;
-    //     font-size: 14px;
-    //     -webkit-appearance: none;
-    //   }
-    // }
+/*------------------------------------*\
+    # LAYOUT 
+\*------------------------------------*/
+
+.main {
+  width: 100% !important;
+  padding-bottom: 150px;
+  overflow: hidden;
+  font-size: 1.4em;
+  &.home {
+    margin-bottom: 0;
+    .content-container {
+      padding: 0;
+    }
+  }
+  &.about {
+    color: white;
+    h2 {
+      font-size: 3em;
+    }
+    hr {
+      border: 0;
+      height: 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+      margin-bottom: 3em;
+    }
+    .panel {
+      padding: 30px 20px;
+      background: transparent;
+      border-radius: 0px
+    }
+  }
+}
+
+
+/*------------------------------------*\
+    # HOME 
+\*------------------------------------*/
+
+
 
 #home {
   a {
@@ -248,12 +257,6 @@ a {
   }
 }
 
-.main {
-  width: 100% !important;
-  .content-container {
-    padding: 0;
-  }
-}
 
 .masthead {
   height: 600px;
@@ -294,7 +297,7 @@ a {
       font-size: 36px;
       z-index: 5;
     }
-    .industry{
+    .industry {
       font-size: 64px;
       color: white;
       margin-top: 140px;
@@ -405,60 +408,94 @@ a {
   }
 }
 
-.banner {
-  background: #00CD88;
-  // height: 75px;
-  h5 {
-    font-size: 20px;
-    margin-top: 20px;
-    // font-weight: bold;
-    color: #f0fff0;
-    -webkit-font-smoothing: antialiased;
+
+/*------------------------------------*\
+    #REUSABLES
+\*------------------------------------*/
+
+
+.bar-item {
+ .container {
+  text-align: center;
+  padding-top: 14px;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  padding-bottom: 50px;
+  color: white;  
   }
-  p {
-    margin-bottom: 20px;
-    font-size: 18px;
-    color: #f0fff0;
-    -webkit-font-smoothing: antialiased;
-    a {
-      color: #f0fff0;
-      margin-left: 5px;
-      -webkit-font-smoothing: antialiased;
+  &.news {
+    background: url('/img/bamboo.jpg') no-repeat;
+    background-size: cover;
+    .heading {
+      letter-spacing: 10px;
+      margin-top: 40px;
+      margin-bottom: 20px;
+    }
+    p {
+      letter-spacing: 5px;
+      .date {
+        font-size: 18px;
+      }
+      .title {
+        font-size: 18px;
+        color: #abf5c0;
+        font-style: italic;
+      }
+    }
+  }
+  &.weixin {
+    .btn-weixin {
+      float: left;
+      margin: 30px 0px;
+      padding: 10px 40px;
+      font-size: 18px;
+      border-radius: 1px;
+    }
+    img {
+      float: right;
+      margin: 20px 0px;
     }
   }
 }
 
-// .weixin {
-//   // text-align: center;
-//   background: url('/img/weixin.svg') no-repeat;
-//   background-color: #3EE599;
-//   // background-size: 8%;
-//   background-position: 22% 100%;
-//   .heading {
-//     margin-top: 40px;
-//     color: white;
-//     font-size: 42px;
-//     // text-align: center;
-//     float: right;
-//   }
-//   img {
-//     float: left;
-//     width: 20%;
-//     margin: 40px 0px;
-//     // margin-top: 40px;
-//   }
-// }
+/*------------------------------------*\
+    #MODALS
+\*------------------------------------*/
+
+.modal-weixin {
+  .modal-content {
+    color: white;
+    background-color: rgba(62, 229, 153, 0.5);
+    p {
+      text-align: center;
+    }
+  }
+}
+
+/*------------------------------------*\
+    #FOOTER
+\*------------------------------------*/
+
+
 
 footer {
+  &.home {
+    background: url('/img/bamboo.jpg') no-repeat;
+    background-size: cover;
+  }
   padding: 20px 0 0 0;
-  background: #007F64;
   position: relative;
   z-index: 100;
   text-align: center;
+  color: white;
   .footer-links {
     margin: 0 auto;
     max-width: 900px;
     padding: 0 10px;
+    overflow: auto;
+    padding-bottom: 50px;
     dl {
       float: left;
       margin:0;
@@ -469,31 +506,33 @@ footer {
         margin: 0;
         padding-bottom: 10px;
         letter-spacing: 2px;
-        color: white;
       }
       dd {
         margin: 5px 0;
         a {
           display: block;
-          // padding: 5px 0;
           color: white;
         }
       }
     }
   }
   .copyright {
-    background-color: #007F7F;
+    background-color: rgba(62, 229, 153,0.5);
     clear: both;
-    text-align: left;
+    text-align: center;
+    padding: 35px 0px;
     p {
       font-size:16px;
       letter-spacing: 5px;
-      color: white;
       margin-top: 10px;
     }
   }
 
 }
+
+/*------------------------------------*\
+    #BUTTONS
+\*------------------------------------*/
 
 
 .btn-primary {
@@ -504,57 +543,122 @@ footer {
   }
 }
 
-.hr-last {
-  &:after {
-    border-bottom: 46px solid transparent;
-    border-left: 1600px solid #3ECD8E;
-    content: "";
-    display: block;
-    height: 2px;
-    position: absolute;
-    width: 0;
-    margin: 20px -24px;
-  }
+.btn-news {
+  margin: 20px 0px;
+  padding: 10px 40px;
+  font-size: 18px;
+  border-radius: 1px;
+}
+
+
+
+/*------------------------------------*\
+    #NEWS
+\*------------------------------------*/
+
+
+.intro-header {
+  // background: url("/img/bamboo.jpg") no-repeat;
+  // background-size: cover;
+  padding: 50px 0px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 70px;
+
+      background: rgb(0,127,50);
+      background: -moz-linear-gradient(left, rgba(0,127,50,0.6) 0%, rgba(0,127,70,0.6) 20%, rgba(0,127,50,0.6) 20%, rgba(0,127,70,0.6) 40%, rgba(0,127,80,0.6) 40%, rgba(0,127,80,0.6) 40%, rgba(0,127,90,0.6) 60%, rgba(0,127,80,0.6) 60%, rgba(0,127,100,0.6) 80%, rgba(0,127,90,0.6) 80%, rgba(0,127,100,0.6) 100%); 
+      background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(0,127,50,0.6)), color-stop(20%,rgba(0,127,70,0.6)), color-stop(20%,rgba(0,127,50,0.6)), color-stop(40%,rgba(0,127,70,0.6)), color-stop(40%,rgba(0,127,80,0.6)), color-stop(40%,rgba(0,127,80,0.6)), color-stop(60%,rgba(0,127,90,0.6)), color-stop(60%,rgba(0,127,80,0.6)), color-stop(80%,rgba(0,127,100,0.6)), color-stop(80%,rgba(0,127,90,0.6)), color-stop(100%,rgba(0,127,100,0.6)));
+      background: -webkit-linear-gradient(left, rgba(0,127,50,0.6) 0%,rgba(0,127,70,0.6) 20%,rgba(0,127,50,0.6) 20%,rgba(0,127,70,0.6) 40%,rgba(0,127,80,0.6) 40%,rgba(0,127,80,0.6) 40%,rgba(0,127,90,0.6) 60%,rgba(0,127,80,0.6) 60%,rgba(0,127,100,0.6) 80%,rgba(0,127,90,0.6) 80%,rgba(0,127,100,0.6) 100%); 
+      background: -o-linear-gradient(left, rgba(0,127,50,0.6) 0%,rgba(0,127,70,0.6) 20%,rgba(0,127,50,0.6) 20%,rgba(0,127,70,0.6) 40%,rgba(0,127,80,0.6) 40%,rgba(0,127,80,0.6) 40%,rgba(0,127,90,0.6) 60%,rgba(0,127,80,0.6) 60%,rgba(0,127,100,0.6) 80%,rgba(0,127,90,0.6) 80%,rgba(0,127,100,0.6) 100%); 
+      background: -ms-linear-gradient(left, rgba(0,127,50,0.6) 0%,rgba(0,127,70,0.6) 20%,rgba(0,127,50,0.6) 20%,rgba(0,127,70,0.6) 40%,rgba(0,127,80,0.6) 40%,rgba(0,127,80,0.6) 40%,rgba(0,127,90,0.6) 60%,rgba(0,127,80,0.6) 60%,rgba(0,127,100,0.6) 80%,rgba(0,127,90,0.6) 80%,rgba(0,127,100,0.6) 100%); 
+      background: linear-gradient(to right, rgba(0,127,50,0.6) 0%,rgba(0,127,70,0.6) 20%,rgba(0,127,50,0.6) 20%,rgba(0,127,70,0.6) 40%,rgba(0,127,80,0.6) 40%,rgba(0,127,80,0.6) 40%,rgba(0,127,90,0.6) 60%,rgba(0,127,80,0.6) 60%,rgba(0,127,100,0.6) 80%,rgba(0,127,90,0.6) 80%,rgba(0,127,100,0.6) 100%); 
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#007f32', endColorstr='#007f64',GradientType=1 );
+
+
+    h1 {
+      color: white;
+      margin-top: 20px;
+      margin-bottom: 30px;
+      font-weight: 800;
+      font-size: 4em;
+    }
 }
 
 
 .posts {
-  margin-top: 60px;
+  // margin-top: 60px;
   .article {
     margin-bottom: 40px;
-    background: #f1f1f1;
     padding-bottom: 20px;
-    &:nth-child(1) {
-      margin-top: 50px;
-    }
+    // &:nth-child(1) {
+    //   margin-top: 50px;
+    // }
     .title {
-      margin-left: 50px;
       line-spacing: 5px;
       letter-spacing: 4px;
-      color: black;
+      margin-top: 2em;
+      margin-bottom: 1em;
+      text-align: center;
+      @media (min-width: $screen-sm-min) {
+        margin-left: 50px;
+        margin-top: 0.8em;
+      }
+      a {
+        color: black;
+      };
     } 
     .dates {
-      position: absolute;
+      position: relative;
       .date-square {
           position: absolute;
-          display: block;
-          width: 80px;
-          margin-bottom: 20px;
+          width: 50%;
           text-align: center;
           font-size: 18px;
+          // color: white;
+          @media (min-width: $screen-sm-min) {
+            display: block;
+            width: 150px;
+            margin-bottom: 20px;
+            padding: 25px 10px 25px;
+          }
         &.year {
-          color: white;
-          padding: 25px 10px 25px;
-          background: #36CC7C;
         }
         &.day {
-          background: #008148;
-          left: 82px;
-          color: white;
-          padding: 25px 10px 25px;
+          left: 50%;
+          @media (min-width: $screen-sm-min) {
+            left: 120px;
+
+          }          
         }
       }
     }
+    &:after {
+      border-bottom: 2px solid transparent;
+      border-left: 1280px solid #3ECD8E;
+      content: "";
+      display: block;
+      height: 2px;
+      position: absolute;
+      width: 0;
+      margin: 0 -24px;
+    }
   }
+}
+
+
+
+/*------------------------------------*\
+    #FOR MIXINS
+\*------------------------------------*/
+
+
+.horizontal-gradient {
+  background: #296ad4;
+  background: -moz-linear-gradient(left, #00CD88 0%, #00CD99 100%);
+  background: -webkit-gradient(linear, left top, right top, color-stop(0%, #00CD88), color-stop(100%, #00CD99));
+  background: -webkit-linear-gradient(left, #00CD88 0%, #00CD99 100%);
+  background: -o-linear-gradient(left, #00CD88 0%, #00CD99 100%);
+  background: -ms-linear-gradient(left, #00CD88 0%, #00CD99 100%);
+  background: linear-gradient(to right, #00CD88 0%, #00CD99 100%);
 }
 

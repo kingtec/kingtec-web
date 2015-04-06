@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: about
 status: publish
 published: true
-title: Locations
+title: 旗下公司
 author:
   display_name: admin
   login: admin

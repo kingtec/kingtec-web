@@ -1,15 +1,50 @@
 ---
 breadcrumbs: true
+type_cn: 关于金特
+type_en: About
 ---
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
-	<body>
+	<body class="about">
 	{% include nav.html %}
 	      
-	 <div class="container-fluid content-container">
-        {{ content }}
-      </div>
+	 <div class="main about">
+
+      {% include banner.html %}
+
+      <div class="container content-container">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <span class=""></span>
+            <h2 class="subtitle">{{page.title}}</h2>
+            <hr>
+          </div>
+        </div>
+
+        <div class="row">
+
+          <div class="col-sm-3">
+            <div class="">
+              <ul class="nav side-nav nav-stacked">
+                <li class="{% if page.title == '公司简介' %}{{'active'}}{% endif %}"><a href="/about/">公司简介</a></li>
+                <li class="{% if page.title == '历史历程' %}{{'active'}}{% endif %}"><a href="/about/history">历史历程</a></li>
+                <li class="{% if page.title == '董事长致辞' %}{{'active'}}{% endif %}"><a href="/about/message">董事长致辞</a></li>
+                <li class="{% if page.title == '旗下公司' %}{{'active'}}{% endif %}"><a href="/about/locations">旗下公司</a></li>
+                <li class="{% if page.title == '企业资质' %}{{'active'}}{% endif %}"><a href="/about/certifications">企业资质</a></li>
+                <li class="{% if page.title == '企业荣誉' %}{{{'active'}}}{% endif %}"><a href="/about/awards">企业荣誉</a></li>
+              </ul>
+            </div>
+          </div>
+
+            <div class="col-sm-9">
+              {{ content }}
+            </div>
+
+        </div>
+      </div>  
+    </div>
 
 	{% include footer.html %}
 

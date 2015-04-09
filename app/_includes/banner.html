@@ -1,8 +1,8 @@
-  <header class="intro-header">
+  <header class="intro-header {% if page.type_cn %}{{page.type_cn}}{% else %}{{page.title_en}}{% endif %}">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12">
-          <h1>{% if page.type_cn %}{{page.type_cn}}{% else %}{{page.title}}{% endif %}</h1>
+          <h1>{% if page.type_cn %}{{page.type_cn}}{% else %}{{page.title_cn}}{% endif %}</h1>
         </div>
       </div>
     </div>

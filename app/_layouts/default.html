@@ -4,14 +4,14 @@ breadcrumbs: true
 <!DOCTYPE html>
 <html>
   {% include head.html %}
-  <body class="{% if page.type_en %}{{page.type_en}}{% else %}{{page.title}}{% endif %}">
+  <body class="{% if page.type_en %}{{page.type_en}}{% else %}{{page.title_en}}{% endif %}">
   {% include nav.html %}
         
    <div class="main">
 
       {% include banner.html %}
 
-      <div class="container content-container">
+      <div class="container-fluid content-container">
 
               {{ content }}
     </div>
@@ -23,9 +23,9 @@ breadcrumbs: true
     <script src="/_bower_components/jquery/dist/jquery.js"></script>
     <script src="/_bower_components/jquery-ui/jquery-ui.js"></script>
     <script src="/_bower_components/bootstrap-sass/assets/javascripts/bootstrap.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox.js/v2.1.6/mapbox.js'></script>
     <script src="/js/main.js"></script>
     <!-- endbuild -->
-
   </body>
 
 </html>

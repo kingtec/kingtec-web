@@ -109,3 +109,14 @@
 
 })($('.block-set'));
 
+$(document).ready(function() {
+        var map = L.mapbox.map('map', 'dodoheaddy.lm2ge97l', {
+            accessToken: "pk.eyJ1IjoiZG9kb2hlYWRkeSIsImEiOiJLaEV0SmJJIn0.noqFHRWes6B1-BpJMO2fZw"
+            // zoomControl: false
+        });
+        map.scrollWheelZoom.disable();
+        // map.legendControl.addLegend(document.getElementById('legend-content').innerHTML);
+
+       L.marker([43.8217127,87.5627517]).addTo(map).bindPopup("YOLO");
+      });
+
